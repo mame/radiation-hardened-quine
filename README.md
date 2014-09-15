@@ -33,6 +33,18 @@ You will see the output exactly equal to the original code:
 
     $ diff rquine.rb rquine2.rb
 
+## History
+
+  - `old-rquine.rb` is the first version based on a trivial redundancy approach
+    (having two copies of the main code).
+
+  - `flagitious.rb` is the smarter version that repairs itself instead of redundancy.
+    It was created by Darren Smith aka. flagitious.  Thank you flagitious!
+    (Note that this version only works with 1.8.7.)
+
+  - `rquine.rb` is the latest "ascii-art" version based on flagitious's approach.
+    It works with 1.9 or later.
+
 ## See also
 
   - [Perl version][1] (attributed to Shinichiro Hamaji)
